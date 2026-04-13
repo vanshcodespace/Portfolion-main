@@ -264,17 +264,7 @@ export default function Projects() {
                         </span>
                       ))}
                     </div>
-                    <div className="flex justify-between">
-                      {project.link !== "#" && (
-                        <Link
-                          href={project.link}
-                          target="_blank"
-                          className="flex items-center gap-2 text-sm font-bold text-gray-900 text-nowrap dark:text-white hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
-                        >
-                          Visit Project <ArrowRight size={16} />
-                        </Link>
-                      )}
-                    </div>
+                   
                   </div>
                 </div>
               </motion.div>
