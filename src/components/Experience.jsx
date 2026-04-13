@@ -25,7 +25,7 @@ const experiences = [
       "Enhanced UI/UX and added form validations for a seamless user experience.",
     ],
     tech: ["React.js", "Firebase", "Tailwind CSS", "Vite"],
-    image: "/download.jpeg",
+    image: "/gryphonlogo.png",
   },
   {
     id: 2,
@@ -39,7 +39,7 @@ const experiences = [
       "Collaborate with cross functional teams to resolve incidents and improve system reliability",
     ],
     tech: ["Node.js", "MongoDB", "REST APIs", "Next.js"],
-    image: "/aurus.png",
+    image: "/aurus-logo.png",
   },
   {
     id: 3,
@@ -54,7 +54,7 @@ const experiences = [
       
     ],
     tech: ["Node.js", "MongoDB", "REST APIs", "Next.js"],
-    image: "/datagamii.jpeg",
+    image: "/datagamilogo.webp",
   },
 ];
 
@@ -191,15 +191,15 @@ export default function Experience() {
                 <div className="hidden md:block md:w-1/2">
                   <motion.div
                     whileHover={{ scale: 1.02 }}
-                    className="relative h-[280px] w-full rounded-3xl overflow-hidden border border-gray-100 dark:border-gray-800 shadow-xl transform-gpu"
+                    className="relative h-[280px] w-full rounded-3xl overflow-hidden border border-gray-100 dark:border-gray-800 shadow-xl transform-gpu bg-white dark:bg-white flex items-center justify-center"
                   >
                     <Image
                       src={exp.image}
                       alt={`${exp.company} Work`}
                       fill
                       loading="lazy"
-                      sizes="(max-width: 768px) 100vw, 500px" // Prevents oversized image loading
-                      className="object-cover"
+                      sizes="(max-width: 768px) 100vw, 500px"
+                      className="object-contain p-8"
                     />
                   </motion.div>
                 </div>
