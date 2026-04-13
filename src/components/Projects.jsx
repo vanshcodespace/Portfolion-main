@@ -34,7 +34,7 @@ const workProjects = [
   ],
   tech: ["REST API", "Next.js", "Firebase", "MongoDB"],
   link: "#",
-  image: "/projects/certificate.PNG",
+  image: "/projects/certificate.png",
   color: "from-indigo-500/20 to-blue-500/5",
 },
   {
@@ -52,7 +52,7 @@ const workProjects = [
   ],
   tech: ["Next.js", "React.js", "Firebase / MongoDB", "REST API", "Vercel"],
   link: "#",
-  image: "/projects/cet.PNG",
+  image: "/projects/cet.png",
   color: "from-purple-500/20 to-pink-500/5"
 },
  {
@@ -70,7 +70,7 @@ const workProjects = [
   ],
   tech: ["Next.js", "React.js", "Tailwind CSS", "Vercel"],
   link: "3",
-  image: "/projects/gryphon.PNG",
+  image: "/projects/gryphon.png",
   color: "from-blue-500/20 to-indigo-500/5"
 }
 ];
