@@ -149,7 +149,7 @@ export default function Hero() {
 
             <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-white dark:border-gray-900 shadow-2xl">
               <Image
-                src="/profile.jpg"
+                src="/profile.JPG"
                 alt="Vansh Singla"
                 fill
                 className="object-cover"
